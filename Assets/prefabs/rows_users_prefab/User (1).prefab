@@ -194,8 +194,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5952485540310653172}
   m_HandleRect: {fileID: 5952485540310653173}
   m_Direction: 2
-  m_Value: 0.9999998
-  m_Size: 0.6836384
+  m_Value: 1
+  m_Size: 0.6484375
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -326,6 +326,7 @@ GameObject:
   - component: {fileID: 5952485540040833674}
   - component: {fileID: 5952485540040833672}
   - component: {fileID: 5952485540040833673}
+  - component: {fileID: 6923303538623083013}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -390,6 +391,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6923303538623083013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5952485540040833675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 5, y: -5}
+  m_UseGraphicAlpha: 1
 --- !u!1 &5952485540104710058
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +824,7 @@ MonoBehaviour:
   picture_url: https://answers.unity.com/themes/thub/images/avi.jpg
   fullname: ---
   content: ---
+  row_was_modified: 0
   row_pict: {fileID: 5952485540040833675}
   row_fullname: {fileID: 5952485540104710056}
   row_content: {fileID: 5952485541435596478}
